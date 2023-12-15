@@ -200,7 +200,7 @@ p{
 
 .splash-page{
     
-    background-image: url(/images/ribs.jpg), linear-gradient(45deg,red, blue);
+    background-image: url(/Stepping_up_style/images/ribs.jpg), linear-gradient(45deg,red, blue);
     background-blend-mode:multiply;
     background-size:cover;
     background-position: center;
