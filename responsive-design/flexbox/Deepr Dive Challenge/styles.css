@@ -1,0 +1,84 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+
+}        /* this makes it so that all elements uses border box, meaning if width is 500px, it will stay 500px even if you add padding for 20px, the total width will stay 500px and not 20px plus 500px */
+
+body{
+
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    
+}
+
+img {
+
+max-width: 100%; /*makes images responsive outside of flex conatiners*/
+
+}
+
+.hero{
+
+    background-image:url("img/hero_img.jpg");
+    background-size:cover;
+    padding: 15em 0;
+   
+}
+
+.container{
+
+   width: 85%;
+   margin: 0 auto;
+   max-width: 1500px;
+   background-color: rgba(0, 0, 0, 0.418);
+
+}
+
+ 
+
+.flex-row{
+    display: flex;
+    gap: 0.5em;
+    background-color: aqua;
+    justify-content: end;
+    
+    
+    
+    
+}
+
+.col{
+
+    text-align: center;
+    
+
+}
+
+
+
+.hero-content{
+ 
+    width: 80%;
+    margin: 0 auto;
+    background-color: brown;
+    text-align: center;
+    
+}
+
+.footer-img{
+    background-image: url(img/footer_img.jpg);
+    background-size: cover;
+    padding: 5em;
+    color: white;
+    
+    
+}
+
+.foot-wrapper{
+
+background-color: red;
+width: 50%;
+
+
+}
+

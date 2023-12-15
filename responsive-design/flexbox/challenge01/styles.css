@@ -1,0 +1,106 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+
+}        /* this makes it so that all elements uses border box, meaning if width is 500px, it will stay 500px even if you add padding for 20px, the total width will stay 500px and not 20px plus 500px */
+
+body{
+
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    
+}
+
+img {
+
+max-width: 100%; /*makes images responsive outside of flex conatiners*/
+
+}
+
+h1{
+    font-size: 3rem;
+    font-family: "Roboto Black";
+
+}
+
+.intro-content p {
+    
+    font-family: 'Roboto Regular';
+    margin-bottom: 3em;        /*rather margin-bottom on the element abover the one you want a margin instead of margin top*/
+
+}
+
+.intro {
+
+    background-color: #23424A;
+    color: white;
+    padding: 7em 0;
+     
+    }
+
+.container{
+  
+    width: 80%;
+    margin: 0 auto;
+    max-width: 2000px;
+    
+    
+
+}
+
+.intro-content {
+ 
+    width: 55%;
+    
+    
+}
+
+.button{
+
+    display: inline-block; /* makes it so that it does not overflow or the padding goes over the text.
+                              this is an inline element so we neet to make it inline- block */
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #38CFD9;
+    color: #136C72;
+    padding: 0.7em 2em;
+    border-radius: 100px;
+    font-weight: 900;
+    
+}
+
+.row{
+    
+    display: flex;   /* makes this a flex conatainer, with a deafault felx direction of row, so the imediate children willl then be columns and the other way around as well*/
+    gap: 2em;
+    padding: 2em 0;
+    
+
+}
+
+.col{   /* these are now the flex items of the flex conatiner .row in this case*/
+    
+    width: 100%; /*this will make each item want to be 100% and thus make all the columns the same size, will give each child the same amount of availble space*/
+    text-align: center;
+}
+
+.wrapper3 h2 {
+    color: #87629A;
+
+}
+
+.wrapper3{
+
+    padding: 4em 0;
+}
+
+.wrapper2{
+ background-color:#136C72;
+ color:white;
+ padding: 3em 0;
+ 
+}
+
+
+
+

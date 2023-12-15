@@ -1,0 +1,140 @@
+*, *::before, *::after{
+
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color:#222C2A;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1,h2{
+
+    margin-top:0; /*remove addition usless space on headings*/
+    font-family: 'Playfair Display', serif;
+}
+
+section{
+
+    padding: 3em 0;
+
+}
+
+.section_title{
+
+    font-family: 'Playfair Display Black', serif;
+    font-size: 2.25rem;
+    color: #F3EED9;
+
+}
+
+.section-title--dark {
+
+    color: #824936;
+}
+
+
+.container {
+
+    margin: 0 auto;
+    width:80%;
+    max-width: 1128px;
+
+}
+
+
+.intro {
+
+    background-color: #F3EED9;
+    padding: 7em 0;
+    text-align: center;
+    min-height: 100vh; /*makes it so that it at least 660px or bigger will expand with content can also use 100vh to match the viewport*/
+    display: flex;
+    align-items: center; /* We do this because with min-height the content will be stuck at the top*/
+
+}
+
+.intro--text {
+
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    margin:0 0 .35em;
+    
+    
+}
+
+.intro--title{
+
+    font-family: 'Playfair Display Black', serif;
+    font-size: 3.5rem;
+    color:#824936;
+    line-height: 1em;
+
+}
+
+
+
+.second-section{
+
+    background-color: #222C2A;
+    color:white;
+      
+}
+
+.third-section{
+
+    background-color: #824936;
+    color:white;
+    
+}
+.third-section, img {
+
+    margin-bottom: 1em;
+}
+
+@media (min-width: 856px) {
+
+    
+    
+   .section-title--dark{
+
+        text-align: center;
+    }
+    
+    .row{
+
+        display: flex;
+        gap: 7em;
+
+    }
+
+    .col {
+
+        flex: 1 1;    
+        
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
